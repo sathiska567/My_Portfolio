@@ -1,0 +1,112 @@
+
+.about_image {
+        box-shadow: 16px 14px 20px #000;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        background-color:#fff;
+        height:100%;
+        width: 75%;
+        /* margin-left: -20px; */
+      }
+      
+      .about_image::before {
+        content: "";
+        position: absolute;
+        inset:-10px 140px;
+        background:linear-gradient(315deg ,#1100ff , #d40071 );
+        transition:0.5s;
+        animation:animate 4s linear infinite;
+      }
+
+      .about_image::after {
+        content: "";
+        position:absolute;
+        inset:6px;
+        background:#2b011e;
+        border-radius:50%;
+        z-index:0;
+      }
+
+      .box {
+        position: absolute;
+        inset: 5px;
+        /* border: 6px solid #f1flec; */
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        border-radius:100%;
+        overflow: hidden;      
+      }
+
+      .box>img{
+        width:100%;
+        height:100%;
+      }
+      
+
+      @keyframes animate{
+        0%{
+                transform:rotate(0deg);
+        }
+        100%{
+                transform:rotate(360deg);     
+        }
+      }
+      
+/* Extra large devices (laptops/desktops) */
+@media (min-width: 1200px) {
+  .about_image {
+    box-shadow: 16px 14px 20px #000;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color:#fff;
+    height:80%;
+    width: 75%;
+    /* margin-left: -20px; */
+ }
+}
+   
+
+/* Large screens (1440px and above)
+@media (min-width: 1440px) {
+  .about_image {
+    box-shadow: 16px 14px 20px #000;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color:#fff;
+    height:70%;
+    width: 55%;
+    margin-left: -20px;
+ }
+  } */
+
+  /* Large devices (small laptops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about_image {
+    box-shadow: 16px 14px 20px #000;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color:#fff;
+    height:70%;
+    width: 75%;
+    /* margin-left: -20px; */
+ }
+}
+
+/* mid screens (768px and above) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about_image {
+    box-shadow: 16px 14px 20px #000;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color:#fff;
+    height:50%;
+    width: 75%;
+    /* margin-left: -20px; */
+ }
+  }
