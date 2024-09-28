@@ -6,6 +6,10 @@
   font-size:55px;
  }
 
+ .mobile-skill{
+  display:none;
+ }
+
  /* Extra large devices (laptops/desktops) */
 @media (min-width: 1200px) {
   .header-text{
@@ -35,6 +39,7 @@
    .animating-text{
     font-size:55px;
    }
+
 }
 
 /* Medium devices (tablets) */
@@ -45,6 +50,20 @@
   
    .animating-text{
     font-size:35px;
+   }
+
+   .skills{
+    margin-left: 20px;
+   }
+   .skills1{
+    margin-left: 40px;
+   }
+   .skills2{
+    margin-left: 55px;
+   }
+
+   .skill-section{
+    margin-left:-30px;
    }
 }
 
@@ -60,6 +79,20 @@
   
    .animating-text{
     font-size:55px;
+   }
+
+   .skills{
+    margin-left: 20px;
+   }
+   .skills1{
+    margin-left: 40px;
+   }
+   .skills2{
+    margin-left: 55px;
+   }
+
+   .skill-section{
+    margin-left:-30px;
    }
 }
 
@@ -102,6 +135,20 @@
 
    .motion-div{
      width:100%;
+   }
+
+   .skills{
+    margin-left: 20px;
+   }
+   .skills1{
+    margin-left: 40px;
+   }
+   .skills2{
+    margin-left: 55px;
+   }
+
+   .skill-section{
+    margin-left:-30px;
    }
 }
 
@@ -147,5 +194,19 @@
 
    .text-base{
     font-size: 13px;
+   }
+
+   .skills{
+    margin-left: 20px;
+   }
+   .skills1{
+    margin-left: 40px;
+   }
+   .skills2{
+    margin-left: 55px;
+   }
+
+   .skill-section{
+    margin-left:-30px;
    }
 }

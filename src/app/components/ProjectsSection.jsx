@@ -11,7 +11,7 @@ const projectsData = [
     description: "Technology - NextJs",
     image: "/images/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/sathiska567/My_Portfolio.git",
     previewUrl: "/",
   },
   
@@ -67,8 +67,8 @@ const projectsData = [
     description: "Technology - Angular , SpringBoot , MySQL , AWS(EC2 , S3 bucket)",
     image: "/images/wedding_2.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/sathiska567/Book_Cover_Project",
-    previewUrl: "https://www.linkedin.com/posts/sathiska-sasindu-749709273_codevanguard-fullstackdevelopment-reactjs-activity-7154181622685167616-GcAD?utm_source=share&utm_medium=member_desktop",
+    gitUrl: "https://github.com/orgs/wedding-managemt-system/repositories",
+    previewUrl: "",
   },
 
   {
@@ -92,7 +92,7 @@ const projectsData = [
   },
 
   {
-    id: 9,
+    id:10,
     title: "Wedding Management System Mobile Application(On Going)",
     description: "Technology - Flutter , NestJs , MongoDB",
     image: "/images/projects/wedding-mobile-app.jpg",

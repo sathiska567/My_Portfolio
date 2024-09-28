@@ -10,31 +10,34 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-3 grid grid-cols-3 gap-3">
+     <div>
+       <div>
+      <ul className="list-disc pl-3 grid grid-cols-3 gap-3 skill-section">
         <li>React</li>
-        <li>NodeJs</li>
-        <li>MySQL</li>
+        <li className='skills'>NodeJs</li>
+        <li className='skills2'>MySQL</li>
         <li>Nextjs</li>
 
-        <li>NestJs</li>
-        <li>MongoDB</li>
-        <li>Angular</li>
-        <li>SpringBoot</li>
+        <li className='skills'>NestJs</li>
+        <li className='skills2'>MongoDB</li>
+        <li >Angular</li>
+        <li className='skills'>SpringBoot</li>
 
-        <li>FireBase</li>
-        <li>Flutter</li>
-        <li>Sequelize</li>
-        <li>MsSQL</li>
+        <li className='skills2'>FireBase</li>
+        <li >Flutter</li>
+        <li className='skills'>Sequelize</li>
+        <li className='skills2'>MsSQL</li>
 
         <li>React Native</li>
 
-        <li>C</li>
-        <li>Java</li>
+        <li className='skills'>C</li>
+        <li className='skills2'>Java</li>
         {/* <li>Python</li> */}
         <li>Dart</li>
 
       </ul>
-
+      </div>
+     </div>
     
     ),
   },
@@ -83,7 +86,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className={styles.about_image}>
           <div className={styles.box}>
-          <Image src="/images/about-image.png" width={600} height={600} />
+          <Image src="/images/experience.webp" width={600} height={600} />
           </div>
         </div>
         
@@ -95,7 +98,7 @@ const AboutSection = () => {
             challenge.Furthermore,a responsible team player with solid and friendly
             leadership qualities and a good team spirit.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 skill-section">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
