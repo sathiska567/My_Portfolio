@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "Sport Management System (second Year Software Project)",
-    description: "Technology - React , Nodejs , ExpressJs , MongoDB , AWS(EC2)",
+    description: "Technology - React , Nodejs , ExpressJs , MongoDB , AWS(EC2 , S3 bucket)",
     image: "/images/se_project.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sathiska567/Sport-Management-System-Project",
@@ -27,8 +27,8 @@ const projectsData = [
   {
     id:3,
     title: "GU Language Student Management System And Web Site",
-    description: "Technology - React , Nodejs , ExpressJs , MongoDB , AWS(EC2)",
-    image: "/images/projects/2.png",
+    description: "Technology - React , Nodejs , ExpressJs , MongoDB , AWS(EC2 , S3 bucket)",
+    image: "/images/projects/student-management-system.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sathiska567/English-Student-Management-System",
     previewUrl: "https://www.linkedin.com/posts/sathiska-sasindu-749709273_reactjs-expressjs-nodejs-activity-7166530036945121281-2PTr?utm_source=share&utm_medium=member_desktop",
@@ -64,7 +64,7 @@ const projectsData = [
   {
     id: 7,
     title: "Wedding Management System(On Going)",
-    description: "Technology - Angular , SpringBoot , MySQL , AWS(EC2)",
+    description: "Technology - Angular , SpringBoot , MySQL , AWS(EC2 , S3 bucket)",
     image: "/images/wedding_2.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sathiska567/Book_Cover_Project",
@@ -88,6 +88,16 @@ const projectsData = [
     image: "/images/e-commerce.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/sathiska567/Digit-Ocean-Backend",
+    previewUrl: "",
+  },
+
+  {
+    id: 9,
+    title: "Wedding Management System Mobile Application(On Going)",
+    description: "Technology - Flutter , NestJs , MongoDB",
+    image: "/images/projects/wedding-mobile-app.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/orgs/Wedding-Mobile-Application/repositories",
     previewUrl: "",
   },
 
