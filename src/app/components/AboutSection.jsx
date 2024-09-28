@@ -54,7 +54,7 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Work Experience",
+    title: "Experience",
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
@@ -117,7 +117,7 @@ const AboutSection = () => {
               active={tab === "experience"}
             >
               {"  "}
-              Work Experience{" "}
+              Experience{" "}
             </TabButton>
             
           </div>

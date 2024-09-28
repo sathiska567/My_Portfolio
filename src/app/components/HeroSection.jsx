@@ -38,14 +38,14 @@ const HeroSection = () => {
           <div className="hero-button-section">
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500  hover:bg-slate-800 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500  hover:bg-slate-800 text-white hire-btn"
             >
               Hire Me
             </Link>
             <a
   href="/document/Sathiska_Gunarathna.pdf"  // Correct path to the PDF
   download="Sathiska_Gunarathna.pdf"
-  className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 hover:bg-slate-800 text-white mt-3 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out"
+  className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 hover:bg-slate-800 text-white mt-3 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out download-btn"
 >
   Download CV
 </a>

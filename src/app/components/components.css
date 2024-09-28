@@ -84,7 +84,20 @@
    }
 
    .hero-button-section{
-    margin-left:0px;
+    margin-left:-20px;
+   }
+   .download-btn{
+    margin-top:20px;
+    
+
+   }
+
+   .hero-button-section a{
+    width:40%;
+   }
+
+   .hire-btn{
+    width: 50%;
    }
 
    .motion-div{
@@ -112,10 +125,27 @@
    }
 
    .hero-button-section{
-    margin-left:0px;
+    margin-left:-20px;
+   }
+   .download-btn{
+    margin-top:20px;
+    
+
+   }
+
+   .hero-button-section a{
+    width:40%;
+   }
+
+   .hire-btn{
+    width: 50%;
    }
 
    .motion-div{
      width:100%;
+   }
+
+   .text-base{
+    font-size: 13px;
    }
 }
